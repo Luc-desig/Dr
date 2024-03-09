@@ -1,0 +1,426 @@
+.abhaya-libre-medium {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.playfair-display-medium {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.logofont {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin-bottom: 0px;
+    color: #251B19;
+}
+
+.logofont2 {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 27px;
+    color: #555E6B;
+}
+
+.nav-link {
+    color: #251B19;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.background {
+    background-image: url('./images/fotografu-8h-yUi_l2Jw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hd1 {
+    padding-top: 30px;
+}
+
+.hd2 {
+    padding-bottom: 5px;
+}
+
+.hd3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+@media (max-width: 800px) {
+    .hd3 {
+      flex-direction: column;
+    }
+}
+
+@media (min-width: 800px) {
+    .hd3 .card2 {
+    background: rgba(189, 202, 214, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    outline: solid 1px white;
+    max-width: 298px;
+    position: absolute;
+    z-index: auto;
+    top: 2em;
+    left: -12em;
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (min-width: 800px) {
+    .hd3 .card3 {
+            background: rgba(189, 202, 214, 0.6);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            outline: solid 1px white;
+            max-width: 298px;
+            position: absolute;
+            z-index: auto;
+            top: 30.5em;
+            left: 2.5em;
+            width: 100%;
+            height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .harta {
+        margin-top: -220px;
+    }
+}
+
+@media (max-width: 800px) {
+    .one {
+        margin-top: -125px;
+    }
+}
+
+
+header {
+    background: rgba(189, 202, 214, 0.4);
+    border-radius: 12px;
+    backdrop-filter: blur(10px)
+}
+
+.hero {
+    margin-top: 75px;
+    margin-bottom: 252px;
+}
+
+.herofont {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (max-width: 500px) {
+    .herofont {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-size: 25px;
+        font-weight: 900;
+        font-style: normal;
+      }
+}
+
+@media (min-width: 990px) {
+    .herofont {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-size: 35px;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+
+@media (min-width: 1200px) {
+    .herofont {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-size: 42px;
+        font-weight: 700;
+        font-style: normal;
+      }
+}
+
+.herofontp {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.button {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFA;
+  background-color: #251B19;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.herob {
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    background: rgba(189, 202, 214, 0.4);
+}
+
+/* 2nd section */
+
+.font2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 52px;
+    max-width: fit-content;
+}
+
+.fontp2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    margin-bottom: 68px;
+    max-width: 434px;
+}
+
+.horses {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 684px;
+    max-height: 399px;
+    margin-bottom: 30px;
+}
+
+.bautura {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    max-height: 712px;
+    max-width: 481px;
+}
+
+.card1 {
+    background: rgba(189, 202, 214, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    outline: solid 1px white;
+    max-width: fit-content;
+    position: absolute;
+    z-index: auto;
+    top: 22em;
+    left: 2em;
+    width: auto;
+    height: auto;
+}
+
+.card2 {
+    background: rgba(189, 202, 214, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    outline: solid 1px white;
+    max-width: 298px;
+    position: absolute;
+    z-index: auto;
+    top: 20em;
+    left: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.card3 {
+    background: rgba(189, 202, 214, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    outline: solid 1px white;
+    max-width: 298px;
+    position: absolute;
+    z-index: auto;
+    top: 3em;
+    left: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.one {
+    position: relative;
+}
+
+.two {
+    position: relative;
+}
+
+.font3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    color: #251B19;
+    padding: 30px 30px 0px 30px;
+}
+
+.fontp3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #251B19;
+    margin-top: 15px;
+    padding: 0px 30px 30px 30px;
+}
+
+/* 3rd section */
+
+.background2 {
+    background-image: url('./images/calin-stan-UEomC6qJukc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.font4 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #251B19;
+}
+
+.texti4 {
+    backdrop-filter: blur(10px);
+    padding: 60px;
+    border-radius: 20px;
+    outline: solid 1px white;
+    background: rgba(189, 202, 214, 0.4);
+    padding-inline: 50px;
+}
+
+@media (min-width: 800px) {
+    .hd4 {
+        margin-left: 180px;
+    }
+}
+
+@media (min-width: 990px) {
+    .hd4 {
+        margin-left: 420px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hd4 {
+        margin-left: 600px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hd4 {
+        margin-left: 780px;
+    }
+}
+
+.hd4 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.button2 {
+    background-color: #251B19;
+    color: #FFFFFA;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 8px;
+}
+
+.form-control {
+    display: inline-block;
+}
+
+/* footer */
+
+#newsletter1 {
+    border-radius: 6px;
+    background: rgba(149, 163, 175, 0.4);
+}
+
+#input {
+    border-radius: 6px;
+    background: rgba(149, 163, 175, 0.4);
+}
+
+.font5 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    color: #251B19;
+    margin-bottom: 25px;
+}
+
+.font6 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #251B19;
+}
+
+.fontp6 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #555E6B;
+}
+
+.fontp7 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #555E6B;
+}
